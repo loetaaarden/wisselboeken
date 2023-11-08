@@ -1,3 +1,14 @@
+/*toegevoegde font voor de website*/
+@font-face {
+    font-family: lilita;
+    src: url(fonts/lilitaone-regular.ttf);
+}
+
+@font-face {
+    font-family: beyondworth;
+    src: url(fonts/beyondworth-regular.ttf);
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -19,6 +30,7 @@ header img {
 
 header h1 {
     font-size: 1.5em;
+    font-family: beyondworth;
 }
 
 body {
@@ -28,12 +40,13 @@ body {
 main img {
     width: 100%;
     position: absolute;
-    top: 70vw;
+    top: 50vw;
 }
 
 main p:first-child{
-    margin: 0% 10% 0% 10%;
-    font-size: 14pt;
+    margin: 0% 11% 0% 11%;
+    font-size: 14px;
+    font-family: lilita;
 }
 
 .home-blok {
@@ -42,11 +55,13 @@ main p:first-child{
     border-radius: 6%;
     padding-top: 30%;
     margin-top: 102%;
+    font-family: lilita;
 }
 
 .home-blok div:nth-child(1) {
     background-color: #2F556F;
     padding: 5%;
+    color: white;
 }
 
 .home-blok div:nth-child(2) {
