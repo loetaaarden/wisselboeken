@@ -12,16 +12,18 @@
 * {
     padding: 0px;
     margin: 0px;
+    border: 0px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
 
-header {
-    margin: 20px;
-    align-items: center;
+header h1 {
+    color: white;
 }
 
 header img {
@@ -33,25 +35,86 @@ header h1 {
     font-family: beyondworth;
 }
 
-body {
+.home {
     background-color: #F6EFDF;
+}
+
+.home-header h1 {
+    color: black;
+}
+
+body {
+    background-color: #612E2D;
+}
+
+main {
+    background-color: #F6EFDF;
+    border-radius: 50px;
+    font-family: lilita;
+    padding-bottom: 15%;
+}
+
+.locatie-text {
+    padding: 10%;
 }
 
 main img {
     width: 100%;
     position: absolute;
-    top: 50vw;
+    top: 45vw;
 }
 
-main i {
+main section {
+    border-radius: 6px;
+    padding: 15%;
+    margin: 10%;
+}
+
+main section:nth-child(even) {
+    background-color: #2F556F;
+}
+
+main section:nth-child(odd) {
+    background-color: #487288;
+}
+
+main article {
+    background-color: #487288;
+    border-radius: 6px;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+
+/* arrows */
+
+main i{
     border-radius: 20%;
     border: solid #904441;
     border-width: 0 4px 4px 0;
     padding: 8px;
     transform: rotate(45deg);
     position: absolute;
-    top: 162vw;
-    left: 50%;
+    top: 156vw;
+    left: 179px;
+}
+
+.arrow-1 {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 195vw;
+    left: 80%;
+}
+
+.arrow-2 {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 250vw;
+    left: 80%;
 }
 
 main p:first-child{
@@ -60,11 +123,14 @@ main p:first-child{
     font-family: lilita;
 }
 
+/* home blokken */
+
 .home-blok {
     background-color: #612E2D;
     padding: 5%;
-    border-radius: 6%;
+    border-radius: 20px;
     padding-top: 30%;
+    padding-bottom: 15%;
     margin-top: 102%;
     font-family: lilita;
     list-style-type: none;
@@ -86,7 +152,9 @@ main p:first-child{
     background-color: #2F556F;
     padding: 8%;
     color: white;
-    border-radius: 6%;
+    border-radius: 10px;
+    padding-right: 25%;
+    font-size: 0.9em;
 }
 
 .home-blok li:nth-child(2) a {
@@ -99,8 +167,12 @@ main p:first-child{
     margin-top: 10%;
     margin-bottom: 10%;
     color: black;
-    border-radius: 6%;
+    border-radius: 10px;
+    padding-right: 25%;
+    font-size: 0.9em;
 }
+
+/* navigatie */
 
 nav ul{
     display: flex;
@@ -110,7 +182,14 @@ nav ul{
     bottom: 0;
     position: fixed;
     width: 100%;
-    padding: 1.2vw;
+    padding: 1%;
+    padding-top: 2%;
+    align-items: center;
+}
+
+nav img {
+    width: 20%;
+    padding-left: 40%;
 }
 
 nav a {
@@ -119,4 +198,11 @@ nav a {
 
 nav a:visited {
     color: white;
+}
+
+nav span {
+    height: 30px;
+    width: 5px;
+    background-color: white;
+    border-radius: 99px;
 }
