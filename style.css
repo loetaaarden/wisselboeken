@@ -3,19 +3,48 @@
     margin: 0px;
 }
 
-body {
-    background-color: #F2E9D6;
+header img {
+    width: 62px;
 }
 
-main {
+body {
+    background-color: #F6EFDF;
+}
+
+main img {
+    width: 100%;
+}
+
+main p:first-child{
     margin: 0% 10% 0% 10%;
+}
+
+.home-blok {
+    background-color: #612E2D;
+    padding: 5%;
+    border-radius: 6%;
+    padding-top: 30%;
+}
+
+.home-blok div:nth-child(1) {
+    background-color: #2F556F;
+    padding: 5%;
+    color: white;
+}
+
+.home-blok div:nth-child(2) {
+    background-color: #487288;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: black;
 }
 
 nav ul{
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    background-color: rgb(149, 100, 100);
+    background-color: #904441;
     color: black;
     bottom: 0;
     position: fixed;
