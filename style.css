@@ -3,8 +3,22 @@
     margin: 0px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    margin: 20px;
+    align-items: center;
+}
+
 header img {
     width: 62px;
+}
+
+header h1 {
+    font-size: 1.5em;
 }
 
 body {
@@ -13,10 +27,13 @@ body {
 
 main img {
     width: 100%;
+    position: absolute;
+    top: 70vw;
 }
 
 main p:first-child{
     margin: 0% 10% 0% 10%;
+    font-size: 14pt;
 }
 
 .home-blok {
@@ -24,12 +41,12 @@ main p:first-child{
     padding: 5%;
     border-radius: 6%;
     padding-top: 30%;
+    margin-top: 102%;
 }
 
 .home-blok div:nth-child(1) {
     background-color: #2F556F;
     padding: 5%;
-    color: white;
 }
 
 .home-blok div:nth-child(2) {
@@ -58,9 +75,4 @@ nav a {
 
 nav a:visited {
     color: white;
-}
-
-header {
-    display: flex;
-    justify-content: center;
 }
