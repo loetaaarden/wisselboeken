@@ -51,6 +51,9 @@ main {
     background-color: #F6EFDF;
     border-radius: 50px;
     font-family: lilita;
+}
+
+.locatie-main {
     padding-bottom: 15%;
 }
 
@@ -64,17 +67,17 @@ main img {
     top: 45vw;
 }
 
-main section {
+.locatie-main section {
     border-radius: 6px;
     padding: 15%;
     margin: 10%;
 }
 
-main section:nth-child(even) {
+.locatie-main section:nth-child(even) {
     background-color: #2F556F;
 }
 
-main section:nth-child(odd) {
+.locatie-main section:nth-child(odd) {
     background-color: #487288;
 }
 
