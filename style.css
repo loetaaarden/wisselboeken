@@ -70,6 +70,8 @@ main {
     top: 45vw;
 }
 
+/*locatie pagina*/
+
 .locatie-text {
     display: flex;
     flex-direction: row;
@@ -156,6 +158,35 @@ section:nth-child(2) {
     justify-content: center;
 }
 
+.locatie-blaadjes img{
+    position: absolute;
+    max-width: 25%;
+}
+
+.locatie-blaadjes img:nth-child(1){
+    top: 104vw;
+}
+
+.locatie-blaadjes img:nth-child(2){
+    top: 45vw;
+    right: 0;
+}
+
+.locatie-blaadjes img:nth-child(3){
+    top: 170vw;
+    right: 0;
+}
+
+.locatie-blaadjes img:nth-child(4){
+    top: 215vw;
+}
+
+.locatie-blaadjes img:nth-child(5){
+    top: 320vw;
+    right: 0;
+}
+
+/*communicatie pagina*/
 .communicatie-main {
     padding-bottom: 10%;
 }
@@ -167,7 +198,7 @@ section:nth-child(2) {
     font-size: 1.2em;
 }
 
-.communicatie-main img {
+.communicatie-main img:nth-child(2) {
     position: absolute;
     width: 40%;
     top: 31vw;
@@ -180,7 +211,8 @@ section:nth-child(2) {
     font-size: 0.8em;
 }
 
-.communicatie-main section:first-of-type{
+.communicatie-main section:first-of-type, 
+.communicatie-main section:last-of-type{
     background-color: #487288;
     border-radius: 16px;
     padding: 5%;
@@ -196,6 +228,21 @@ section:nth-child(2) {
     margin-left: 25%;
     font-size: 0.7em;
 }
+
+.communicatie-blaadjes img{
+    position: absolute;
+    max-width: 25%;
+}
+
+.communicatie-blaadjes img:nth-child(1){
+    top: 115vw;
+}
+
+.communicatie-blaadjes img:nth-child(2){
+    top: 155vw;
+    right: 0;
+}
+
 
 /* arrows */
 
@@ -312,7 +359,7 @@ nav a:visited {
     color: white;
 }
 
-nav span {
+nav li:nth-child(even) {
     height: 30px;
     width: 5px;
     background-color: white;
